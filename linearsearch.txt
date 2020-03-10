@@ -12,7 +12,7 @@ clrscr();
  scanf("%d",&a[i]);
  }
  printf("enter the key to search:");
- scanf("%d",&kry);
+ scanf("%d",&key);
  for(i=0;i<n;i++)
 {
  if(a[i]==key)
@@ -22,7 +22,7 @@ clrscr();
 }
 if(i== key)
  {
- printf("kry not found");
+ printf("key not found");
  }
 getch();
 }
